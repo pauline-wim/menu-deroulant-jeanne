@@ -98,10 +98,10 @@ header {
 /* ------------------------ MENU DEROULANT ---------------------- */
 
 /* disable horizontal scrolling  */
-#root {
+/* #root {
     position: relative;
     overflow-x: hidden;
-}
+} */
 
 /* position responsive menu at the left of the screen */
 #topnav_menu {
@@ -110,15 +110,15 @@ header {
     left   : 0;
     top     : 100px;
     margin  : 0;
-    width   : 50vw;
+    width   : 800px;
     height  : 100vh;
 
     z-index: 99;
 
     transform-origin: 0% 0%;
-    transform       : translate(200%, 0);
+    transform       : translate(-200%, 0);
 
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    transition: transform 1s ;
 }
 
 /* and let's slide it in from the left */

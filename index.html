@@ -15,11 +15,11 @@
     <div class="header-left flex">
 
         <div id="root">
-            <a id="topnav_icon" href="javascript:void(0);" onclick="showResponsiveMenu()"><h3>Collection</h3></a>
+            <a id="topnav_icon" href="javascript:void(0);" onmouseover="showResponsiveMenu()" ><h3>Collection</h3></a>
 
             <!-- MENU DEROULANT -->
-            <nav role="navigation" id="topnav_menu">
-                <ol class="grande-categorie">
+            <nav role="navigation" id="topnav_menu" >
+                <ol class="grande-categorie" href="javascript:void(0);" onmouseleave="showResponsiveMenu()">
                     <li><a href="#">Bijoux</a>
                         <ul class="petite-categorie">
                             <li><a href="#">Boucles d'oreilles</a></li>
@@ -72,7 +72,7 @@
 
  <!------------------------ HEADER ---------------------->
 
- <main>
+ <main id="main">
 
  <!------------------------ VITRINE ---------------------->
     <section id="vitrine">

@@ -5,10 +5,14 @@ function showResponsiveMenu() {
     if (menu.className === "") {
       menu.className = "open";
       icon.className = "open";
-      root.style.overflowY = "hidden";
+      // root.style.overflowY = "hidden";
     } else {
       menu.className = "";                    
       icon.className = "";
-      root.style.overflowY = "";
+      // root.style.overflowY = "";
     }
   }
+
+ 
+
+  
